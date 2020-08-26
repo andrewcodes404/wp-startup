@@ -1,0 +1,29 @@
+//browser-sync notification pop-up
+#__bs_notify__ {
+  top: 50% !important;
+  right: 10px !important;
+  border-radius: 15px !important;
+  height: 50px !important;
+  background-color: orange !important;
+  // TURN OFF ALLTOGETHER
+  display: none !important;
+}
+
+// or with no notifictaion
+// browser-sync start -p "http://blanco1:8888/" --files="**/*"  --no-notify
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.o-content {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+img {
+  margin-bottom: 20px;
+}
