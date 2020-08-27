@@ -1,0 +1,8 @@
+@import "../../sass/00-base/vars_mixins_layout";
+// @import "../../sass/00-base/fonts_&_typo";
+
+.b-text-editor-wrapper {
+}
+.b-text-editor {
+  @include block-layout;
+}
