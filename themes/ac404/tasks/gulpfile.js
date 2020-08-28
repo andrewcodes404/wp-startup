@@ -27,7 +27,7 @@ function jsFn(cb) {
 // .scss
 function sassFn(cb) {
   //1.where is my scss
-  return src('../sass/**/*.scss') //gets all files ending with .scss in src/scss
+  return src('../sass/style.scss') //gets all files ending with .scss in src/scss
     //2. pass that file through sass compiler
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss([
