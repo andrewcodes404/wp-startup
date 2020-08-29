@@ -24,7 +24,8 @@ Add some vscode settings
     "titleBar.activeBackground": "#ff34ab",
     "titleBar.inactiveBackground": "#af0060"
   }
-}```
+}
+```
 
 ACTIVATE THE PLUGINS - ACF and Smush
 
