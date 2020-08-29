@@ -13,6 +13,7 @@ function serve() {
                 ...
 ```
 
+Add some vscode settings
 /.vscode/settings.json
 
 ``` json
@@ -24,3 +25,8 @@ function serve() {
     "titleBar.inactiveBackground": "#af0060"
   }
 }```
+
+ACTIVATE THE PLUGINS - ACF and Smush
+
+use this file  to import some ACF setup fields
+wp-content/acf-export-2020-08-29.json
